@@ -1,45 +1,42 @@
-/* example
 .btn {
   display: inline-block;
-  padding: 0.6em 0.25em 0.8em;
+  position: relative;
+  padding: 12px 22px;
   border: none;
-  background-color: $bg-primary-light;
+  background-color: $bg-primary;
+  background-image: linear-gradient(to right, $color-primary, $color-secondary);
   color: $color-white;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
-  text-align: center;
-  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: capitalize;
 
-  &:hover {
-    background-color: $bg-primary;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: background-color 0.15s ease-out;
   }
 
-  &:active {
-    background-color: $bg-primary;
-    color: white(0.3);
+  &:hover::before {
+    background-color: black(0.1);
   }
 
-  &:disabled,
-  &.is-disabled {
-    background-color: black(0.3);
-    color: $color-white;
-  }
-}
-
-.btn--ghost {
-  border: 1px solid rgba($bg-primary, 0.1);
-  background-color: transparent;
-  color: $color-black;
-
-  &:hover {
-    border-color: rgba($bg-primary, 0.3);
-    background-color: inherit;
-  }
-
-  &:active {
-    background-color: rgba($bg-primary, 0.2);
-    color: black(0.3);
+  &:active::before {
+    background-color: black(0.2);
   }
 }
-*/
+
+// .btn--small {
+//   padding: 8px 13px 8px 15px;
+//   font-size: 13px;
+//   font-weight: 700;
+// }
+
+// .btn--std {
+//   padding: 12px 22px;
+//   font-size: 13px;
+//   font-weight: 700;
+// }
