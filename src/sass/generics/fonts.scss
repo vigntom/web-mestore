@@ -1,19 +1,69 @@
-/* example
 @font-face {
-  font-family: '';
+  // medium
+  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 800; // extra-bold
+  font-weight: 500;
   src:
-    url('../fonts/.woff2') format('woff2'),
-    url('../fonts/.woff') format('woff');
+    url('../fonts/montserrat-medium.woff2') format('woff2'),
+    url('../fonts/montserrat-medium.woff') format('woff');
 }
 
 @font-face {
-  font-family: '';
-  font-style: normal;
-  font-weight: 300; // light
+  // medium italic
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 500;
   src:
-    url('../fonts/.woff2') format('woff2'),
-    url('../fonts/.woff') format('woff');
+    url('../fonts/montserrat-mediumitalic.woff2') format('woff2'),
+    url('../fonts/montserrat-mediumitalic.woff') format('woff');
 }
-*/
+
+@font-face {
+  // bold
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('../fonts/montserrat-bold.woff2') format('woff2'),
+    url('../fonts/montserrat-bold.woff') format('woff');
+}
+
+@font-face {
+  // extra-bold
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src:
+    url('../fonts/montserrat-extrabold.woff2') format('woff2'),
+    url('../fonts/montserrat-extrabold.woff') format('woff');
+}
+
+@font-face {
+  // black
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src:
+    url('../fonts/montserrat-black.woff2') format('woff2'),
+    url('../fonts/montserrat-black.woff') format('woff');
+}
+
+@font-face {
+  // Bebas Neue regular
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/bebasneue-regular.woff2') format('woff2'),
+    url('../fonts/bebasneue-regular.woff') format('woff');
+}
+
+@font-face {
+  // Bebas Neue Bold
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('../fonts/bebasneue-bold.woff2') format('woff2'),
+    url('../fonts/bebasneue-bold.woff') format('woff');
+}

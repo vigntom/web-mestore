@@ -1,6 +1,11 @@
 $color-black: #000;
 $color-white: #fff;
-$color-primary: #826550;
+
+$color-dark: hsl(360, 0, 13);
+$color-dark-lighter: hsl(360, 0, 29);
+
+$color-primary: #f9236f;
+$color-secondary: #f92349;
 
 $bg-primary: #694d37;
 $bg-primary-light: #81654f;
@@ -13,4 +18,5 @@ $bg-gray-21: hsl(38, 0, 21);
 $bg-gray-25: hsl(38, 0, 25);
 $bg-gray-31: hsl(38, 0, 31);
 
-$font-std: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+$font-primary: "Montserrat", Helvetica, Arial, sans-serif;
+$font-secondary: "Bebas Neue", Helvetica, Arial, sans-serif;
